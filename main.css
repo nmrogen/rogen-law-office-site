@@ -1,98 +1,77 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
-header {
-  padding: 20px 0;
-}
-
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-}
-
-header h1 {
-  font-weight: 700;
-  margin: 0;
+header .row {
+    display: flex;
+    text-align: center;
 }
 
 header nav {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    text-align: center;
 }
 
 header p {
-  padding: 0 20px;
-  margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url('http://www.ccwoodcrafts.com/yahoo_site_admin2/assets/images/corpus_christi_shoreline_night.482646_std.jpg');
-  background-size: cover;
-  color: blue;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+    display: flex;
+    align-items: center;
+    background-image: url('http://www.ccwoodcrafts.com/yahoo_site_admin2/assets/images/corpus_christi_shoreline_night.482646_std.jpg');
+    background-size: cover;
+    color: blue;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+    color: #fff;
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
+    margin: 0 0 20px;
+    color: #fff;
 }
 
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
+.page-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    max-width: 880px;
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
+.quote {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    border: 20px solid #000;
+    text-align: center;
+    padding: 30px;
+    margin: 30px
 }
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
+.location {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center
 }
 
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
-
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
+footer .row {
+    font-size: 30px;
+    /* font-size: 120px; */
+    padding: 20px 0;
+    display: block;
+    justify-content: flex-end;
 }
